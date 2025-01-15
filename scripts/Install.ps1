@@ -1,16 +1,26 @@
-New-Item -Path "c:\" -ItemType Directory
-Set-Location -Path "C:\Git" 
+# als er een error komt gelijk stoppen
+$ErrorActionPreference = "Stop"
 
-# install .net sdk8
-Invoke-WebRequest -Uri "https://dot.net/v1/dotnet-install.ps1" -OutFile ".\scripts\dotnet-install.ps1" 
-.\scripts\dotnet-install.ps1
-dotnet.exe
-# install git
-Invoke-WebRequest -Uri "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.1/Git-2.47.1-64-bit.exe" -OutFile ".\scripts\git-setup.exe" 
-$installerPath = ".\scripts\git-setup.exe"  
-# Run the installer in silent mode with specified installation directory
-Start-Process -FilePath $installerPath -ArgumentList "/SILENT", "/NORESTART", "/DIR=C:\Program Files\Git" -Wait -NoNewWindow
+#.net installeren
+Write-Host ".net sdk 8 installeren"
+winget install Microsoft.DotNet.DesktopRuntime.9 winget install Microsoft.DotNet.AspNetCore.9 -NoNewWindow -Wait
+Write-Host ".net sdk 8 geinstalleerd"
 
-# clone repo
+# Git installeren
+Write-Host "Git isntalleren"
+winget install --id Git.Git -e --source winget --accept-source-agreements --accept-package-agreements -e -q
+Write-Host "Git geinstalleerd"
 
-git clone https://github.com/Jelleterhorst/ITM-easydevops.git
+# Repository clonen
+Write-Host "repository van github clonen"
+$repoUrl = "https://github.com/Jelleterhorst/ITM-easydevops.git"
+$clonePath = "$env:USERPROFILE\ITM-easydevops"
+git clone $repoUrl $clonePath
+Write-Host "repository is gecloned"
+
+# dotnet applicatie builden en uitvoeren
+Write-Host "dotnet applicatie builen en runnen"
+Push-Location "$clonePath\frontend"
+dotnet build
+dotnet run --project "$clonePath\frontend\ConsoleApp\ConsoleApp.csproj"
+Write-Host "dotnet applicatie draait"
