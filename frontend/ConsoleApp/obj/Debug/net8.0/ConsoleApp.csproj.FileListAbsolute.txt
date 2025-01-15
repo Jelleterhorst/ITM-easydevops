@@ -1,0 +1,15 @@
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\bin\Debug\net8.0\ConsoleApp.exe
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\bin\Debug\net8.0\ConsoleApp.deps.json
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\bin\Debug\net8.0\ConsoleApp.runtimeconfig.json
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\bin\Debug\net8.0\ConsoleApp.dll
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\bin\Debug\net8.0\ConsoleApp.pdb
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\ConsoleApp.dll
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
+C:\git\EasyDevOps-ITM-550937\frontend\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
