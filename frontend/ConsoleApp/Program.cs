@@ -1,32 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("                 EasyDevOps");
-Console.WriteLine("               .+@-...  . .-@=                ");
-Console.WriteLine("           .@                    @.           ");
-Console.WriteLine("         %                          @         ");
-Console.WriteLine("      .-                              *       ");
-Console.WriteLine("     %                                  @     ");
-Console.WriteLine("   .                                     ..   ");
-Console.WriteLine("  =                                       ..  ");
-Console.WriteLine(" ..                                        .. ");
-Console.WriteLine(" = ####. -#############..######.   *#####=  # ");
-Console.WriteLine("+ .****. -*************..******#  .******-   .");
-Console.WriteLine("% .****.     .****+.... .***#***. ***#***-   %");
-Console.WriteLine("= .****.     .****+ ..  .***#***#.#*##***-   %");
-Console.WriteLine("+ .****.      ****+     .***#.******.#***-   %");
-Console.WriteLine("% .****.      ****+.    .***#.*****# ****-   @");
-Console.WriteLine("= .****.     .****+..   .***#..****. ****-   .");
-Console.WriteLine(".=.++++.      ****=     .***+  *+++. ++++-. %.");
-Console.WriteLine(" ..                                        .. ");
-Console.WriteLine("  -                                       ..  ");
-Console.WriteLine("   ..                                    :.   ");
-Console.WriteLine("     %                                  @     ");
-Console.WriteLine("      .+                              %.      ");
-Console.WriteLine("        .@                         .@         ");
-Console.WriteLine("           .@                   .@            ");
-Console.WriteLine("               .-@*..    ..#@:                ");
-Console.WriteLine("");
-Console.WriteLine("                  EasyDevOps");
-Console.WriteLine("                  Ohja en Bram kan niet dammen -Sven F.");
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("                  EasyDevOps"                      );
+Console.WriteLine("..................................................");
+Console.WriteLine("..................................................");
+Console.WriteLine("##################################################");
+Console.WriteLine("##################################################");
+Console.WriteLine("########-...**...........:#:....+###:....-########");
+Console.WriteLine("########-...**::::....:::-#......##+.....-########");
+Console.WriteLine("########-...*#####...-#####...-..=#:..:. -########");
+Console.WriteLine("########-...*#####...-#####...=:..+..=-..-########");
+Console.WriteLine("########-...*#####...-#####...=*.....#-..-########");
+Console.WriteLine("########-...*#####...-#####...=#:...=#-..-########");
+Console.WriteLine("########-...*#####...-#####...=#*...##-..-########");
+Console.WriteLine("##################################################");
+Console.WriteLine("##################################################");
+Console.WriteLine("..................................................");
+Console.WriteLine("                  EasyDevOps                      ");
 
 
 Console.WriteLine("Some information");
