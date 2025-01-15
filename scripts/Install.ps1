@@ -13,6 +13,4 @@ Start-Process -FilePath $installerPath -ArgumentList "/SILENT", "/NORESTART", "/
 
 # clone repo
 
-git clone https://github.com/Bedrijfstak14/EasyDevOps-ITM-550937.git
-
-# Run app
+git clone https://github.com/Jelleterhorst/ITM-easydevops.git
